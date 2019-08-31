@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <title>Kato Kohei's portfolio</title>
+</head>
+<body>
+  <!-- HEADER NAVBAR -->
+  <nav class="navbar navbar-expand-sm bg-light fixed-top navbar-light">
+    <div class="container">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link mx-3 active">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="skill.html" class="nav-link mx-3">SKILL</a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link mx-3">WORK</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link mx-3">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- /HEADER NAVBAR -->
+
+
+  <!-- SECTION PROFILE -->
+  <header id="home-section">
+    <div class="dark-overlay">
+      <div class="home-inner container text-center">
+        <div class="card col-md-10 mx-auto" >
+
+          <h1 class="card-title">Kohei Kato's Portfolio</h1>
+          <div class="mx-auto row">
+            <div class="col-sm-4 py-4 ">
+              <img src="img/avatar.png" alt="" class="mb-3 img-fluid rounded-circle">
+            </div>
+            <div class="col-sm-4 py-3 profile-section">
+              <h3 class="display-5">~Profile~</h3>
+              <div class="text-left">
+                <p class="text-item">氏名：　　加藤　航平</p>
+                <p class="text-item">出身：　　三重県津市</p>
+                <p class="text-item">所在地：　鹿児島県霧島市</p>
+                <p class="text-item">事業内容：Webエンジニア</p>
+                <p class="text-item">趣味：　　ロードバイク</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /SECTION PROFILE -->
+
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="text-center py-4 ml-auto">
+          <p>Copyright &copy; <span id="year"></span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script
+  src="http://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+  // Get the current year for the copyright
+  $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+</html>

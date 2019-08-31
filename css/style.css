@@ -1,0 +1,114 @@
+
+
+/* HOME */
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem; 
+}
+
+#home-section {
+  background: url(../img/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 550px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 550px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#home-section .home-inner {
+  padding-top: 130px;
+}
+
+#home-section .row{
+  width: 80%;
+}
+
+#home-section .card-title{
+  padding:1rem 1rem;
+  margin: 0rem 5rem;
+  border-bottom: 1px #000 solid;
+}
+
+#home-section .text-item{
+  margin-bottom: 0.5rem;
+}
+
+#home-section .profile-section{
+  margin-left: 7rem;
+}
+
+
+
+/* SKILL */
+#skill-section {
+  background: url(../img/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 1200px;
+}
+
+#skill-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 1200px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#skill-section .home-inner {
+  padding-top: 130px;
+}
+
+/* WORK */
+#work-section {
+  background: url(../img/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+#work-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 600px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#work-section .home-inner {
+  padding-top: 130px;
+}
+
+/* CONTACT */
+#contact-section {
+  background: url(../img/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+#contact-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 600px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#contact-section .home-inner {
+  padding-top: 130px;
+}
